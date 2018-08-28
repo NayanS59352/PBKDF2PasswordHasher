@@ -6,9 +6,6 @@ import java.security.SecureRandom;
 import java.security.spec.KeySpec;
 import java.util.Base64;
 
-/**
- * Created by nashr on 02/07/2017.
- */
 public class Hasher {
     //surrounding the whole method with an exception as easier than surround each with try catch.
     //takes in an input of the password a salt and a boolean expression to check if it verifying or creating a new hash.
